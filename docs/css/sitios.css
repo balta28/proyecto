@@ -1,0 +1,123 @@
+
+.menuCSS3 ul {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.menuCSS3 a {
+font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 1em;
+    background-color: transparent;
+    text-decoration: none;
+    color: #191C26;
+    border-radius: 10px;
+}
+
+.menuCSS3 a:hover {
+
+    text-align: center;
+    background-color: red;
+}
+
+.menuCSS3 ul li ul {
+    text-align: center;
+    display: none;
+}
+
+.menuCSS3 ul li a:hover+ul,
+.menuCSS3 ul li ul:hover {
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background: #bc4e9c;
+    background:  url(../img/El-Salvador-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.textos-header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+}
+
+.textos-header h2 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    text-align: justify;
+    margin: 50px;
+    font-size: 20px;
+   
+
+}
+
+table {
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    border: 2px;
+}
+
+ol {
+    margin: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1em;
+}
+
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    background: lightblue;
+    font-style: italic;
+    
+}
+
+.texto {
+    margin: 2em;
+    font-size: 20px;
+   
+}
+th:hover{
+    background: url(../img/El-Salvador-1.png);
+   background-size: cover;
+}
